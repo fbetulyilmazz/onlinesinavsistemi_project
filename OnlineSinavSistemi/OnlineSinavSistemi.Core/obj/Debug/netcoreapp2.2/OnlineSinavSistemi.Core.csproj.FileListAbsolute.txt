@@ -1,0 +1,87 @@
+\\lab08-ogretmen\Asp.Net 3 Öğle Branşı\Proje\Hafta2_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csprojAssemblyReference.cache
+\\lab08-ogretmen\Asp.Net 3 Öğle Branşı\Proje\Hafta2_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CoreCompileInputs.cache
+\\lab08-ogretmen\Asp.Net 3 Öğle Branşı\Proje\Hafta2_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfoInputs.cache
+\\lab08-ogretmen\Asp.Net 3 Öğle Branşı\Proje\Hafta2_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfo.cs
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.deps.json
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csprojAssemblyReference.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CoreCompileInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfoInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfo.cs
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CopyComplete
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta2_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.deps.json
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csprojAssemblyReference.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CoreCompileInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfoInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfo.cs
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CopyComplete
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+C:\Users\Crosscheck\Desktop\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.deps.json
+C:\Users\Crosscheck\Desktop\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+C:\Users\Crosscheck\Desktop\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+C:\Users\Crosscheck\Desktop\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+C:\Users\Crosscheck\Desktop\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+C:\Users\Crosscheck\Desktop\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csprojAssemblyReference.cache
+C:\Users\Crosscheck\Desktop\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfoInputs.cache
+C:\Users\Crosscheck\Desktop\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfo.cs
+C:\Users\Crosscheck\Desktop\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CopyComplete
+C:\Users\Crosscheck\Desktop\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+C:\Users\Crosscheck\Desktop\Hafta3_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.deps.json
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csprojAssemblyReference.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CoreCompileInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfoInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfo.cs
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CopyComplete
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta3_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.deps.json
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csprojAssemblyReference.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CoreCompileInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfoInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfo.cs
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CopyComplete
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.deps.json
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csprojAssemblyReference.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CoreCompileInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfoInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfo.cs
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CopyComplete
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta5_2\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.deps.json
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csprojAssemblyReference.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CoreCompileInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfoInputs.cache
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfo.cs
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CopyComplete
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb

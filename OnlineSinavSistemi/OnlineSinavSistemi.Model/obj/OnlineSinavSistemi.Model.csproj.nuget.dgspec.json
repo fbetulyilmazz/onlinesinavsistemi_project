@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {}
+  },
+  "projects": {
+    "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj",
+        "projectName": "OnlineSinavSistemi.Core",
+        "projectPath": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj",
+        "packagesPath": "C:\\Users\\Lab03-16\\.nuget\\packages\\",
+        "outputPath": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lab03-16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj",
+        "projectName": "OnlineSinavSistemi.Model",
+        "projectPath": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj",
+        "packagesPath": "C:\\Users\\Lab03-16\\.nuget\\packages\\",
+        "outputPath": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lab03-16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj": {
+                "projectPath": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
