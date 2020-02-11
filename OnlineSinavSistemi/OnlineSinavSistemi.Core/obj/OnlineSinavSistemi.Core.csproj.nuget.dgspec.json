@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj": {}
+    "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj": {}
   },
   "projects": {
-    "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj": {
+    "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj",
         "projectName": "OnlineSinavSistemi.Core",
-        "projectPath": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj",
+        "projectPath": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj",
         "packagesPath": "C:\\Users\\Lab03-16\\.nuget\\packages\\",
-        "outputPath": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta6_1\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\obj\\",
+        "outputPath": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

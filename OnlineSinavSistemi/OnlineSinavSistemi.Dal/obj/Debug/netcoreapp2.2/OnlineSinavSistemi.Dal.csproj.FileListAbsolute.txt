@@ -109,3 +109,19 @@ Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSiste
 Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Dal\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.AssemblyInfoInputs.cache
 Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Dal\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.AssemblyInfo.cs
 Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Dal\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.csproj.CopyComplete
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.deps.json
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.runtimeconfig.json
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.runtimeconfig.dev.json
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.dll
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.pdb
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.dll
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.pdb
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.csprojAssemblyReference.cache
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.AssemblyInfoInputs.cache
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.AssemblyInfo.cs
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.csproj.CopyComplete
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.dll
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Dal\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Dal.pdb

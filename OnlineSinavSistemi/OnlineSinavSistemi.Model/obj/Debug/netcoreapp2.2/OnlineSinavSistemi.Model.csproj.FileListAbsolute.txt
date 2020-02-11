@@ -95,3 +95,17 @@ Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSiste
 Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.csproj.CopyComplete
 Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.dll
 Z:\Fatma Betül YILMAZ\Asp.Net 3 Öğle Branşı\Proje\Hafta6_1\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.pdb
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.deps.json
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.dll
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.pdb
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.csprojAssemblyReference.cache
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.csproj.CoreCompileInputs.cache
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.AssemblyInfoInputs.cache
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.AssemblyInfo.cs
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.csproj.CopyComplete
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.dll
+C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.pdb

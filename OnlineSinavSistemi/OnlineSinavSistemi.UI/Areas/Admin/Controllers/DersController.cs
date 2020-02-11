@@ -10,24 +10,30 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
 {
     public class DersController : AdminBaseController
     {
-        IDersService service;
-        public DersController(IDersService _service)
+        IUnitOfWork service;
+        public DersController(IUnitOfWork _service)
         {
             service = _service;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
 
         [HttpGet]
         public IActionResult DersGetByKursID(int kursId)
         {
-            var sonuc = service.GetAll(x => x.KursId == kursId);
+            var sonuc = service.Ders.GetAll(x => x.KursId == kursId).Data;
             return View(sonuc);
         }
 
-    [HttpGet]
+        public IActionResult Listele()
+        {
+            var sonuc = service.Ders.GetAll(x => x.SilindiMi == false).Data;
+            return View(sonuc);
+        }
+
+        [HttpGet]
         public IActionResult Ekle()
         {
             return View();
@@ -39,8 +45,9 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         {
             model.KayitTarihi = DateTime.Now;
             model.SilindiMi = false;
-            service.Add(model);
-            return View();
+            service.Ders.Add(model);
+            var sonuc = service.SaveChanges();
+            return RedirectToAction(nameof(Ekle));
         }
 
         [HttpPost]
@@ -48,16 +55,18 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         {
             model.GuncellemeTarihi = DateTime.Now;
             model.SilindiMi = false;
-            service.Update(model);
-            return View();
+            service.Ders.Update(model);
+            var sonuc = service.SaveChanges();
+            return RedirectToAction(nameof(Listele));
         }
 
         [HttpPost]
         public IActionResult SoftDelete(int id)
         {
-
-            service.SoftDelete(id);
-            return View();
+            service.Ders.SoftDelete(id);
+            var sonuc = service.SaveChanges();
+            return RedirectToAction(nameof(Listele));
         }
     }
+
 }
