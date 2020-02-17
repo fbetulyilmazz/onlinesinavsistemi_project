@@ -1,0 +1,47 @@
+﻿@model OnlineSinavSistemi.Model.Data.Yorum
+
+@{
+    ViewData["Title"] = "Ekle";
+    Layout="~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Ekle</h2>
+
+<h4>Yorum</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Ekle" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           <div class="form-group">
+            <label asp-for="DersId" class="control-label"></label>
+            <input asp-for="DersId" class="form-control" />
+            <span asp-validation-for="DersId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="KullaniciId" class="control-label"></label>
+            <input asp-for="KullaniciId" class="form-control" />
+            <span asp-validation-for="KullaniciId" class="text-danger"></span>
+        </div>
+            <div class="alert alert-info">  @TempData["Mesaj"]</div>
+            <div class="form-group">
+                <label asp-for="Aciklama" class="control-label"></label>
+                <input asp-for="Aciklama" class="form-control" />
+                <span asp-validation-for="Aciklama" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+            <label asp-for="GuncellemeTarihi" class="control-label"></label>
+            <input asp-for="GuncellemeTarihi" class="form-control" />
+            <span asp-validation-for="GuncellemeTarihi" class="text-danger"></span>
+        </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -4,8 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using OnlineSinavSistemi.Bll.Abstract;
+using OnlineSinavSistemi.Model.Data;
 
-namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
+namespace OnlineSinavSistemi.UI.Controllers
 {
     public class YorumController : Controller
     {
@@ -16,25 +17,21 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        public IActionResult Listeleme()
+        public IActionResult Ekle()
         {
-            var list = service.Yorum.GetAll();
-            return View(list);
-        }
-        [HttpGet]
-        public IActionResult Silme()
-        {
-            
             return View();
-
         }
 
         [HttpPost]
-        public IActionResult Silme(int id)
+        public IActionResult Ekle(Yorum model)
         {
-            service.Yorum.SoftDelete(id);
+            
+            model.KayitTarihi = DateTime.Now;
+            model.SilindiMi = false;
+            service.Yorum.Add(model);
+            var result = service.SaveChanges();
+            TempData["Mesaj"] = result.BasariliMi ? "Kayıt Eklendi." : result.Mesaj;
             return View();
-
         }
     }
 }
