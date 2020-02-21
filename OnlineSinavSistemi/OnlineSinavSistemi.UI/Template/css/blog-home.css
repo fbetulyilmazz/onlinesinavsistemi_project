@@ -1,0 +1,131 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+body {
+  background: url('images/arkaplan.png') !important;
+  background-repeat: repeat !important;
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.button {
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.bg-color{
+ background-color:#3C7E91;
+}
+
+@media(min-width: 600px) {
+  .responsive-tasrim {
+    margin-top: 20px !important;
+  }
+}
+
+/* Uyarı Mesajı*/
+
+h2{
+  font-weight: 400;
+  font-size: 30pt;
+  line-height: 1.3em;
+  margin: 40px 0;
+  color: #39B;
+}
+
+.container>.row>.message>p {
+  font-weight: 50;
+  font-size: 18pt;
+  line-height: 1.3em;
+  margin: 15px 150px;
+  color: #39B;
+}
+
+.container>.row>.message {
+  position: relative;
+  padding: 10px;
+  padding-left: 35px;
+  margin: 30px 10px;
+  box-shadow:0 2px 5px rgba(0,0,0,.3);
+  background: #BBB;
+  color: #FFF;
+  
+  -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+       -o-transition: all .5s ease;
+          transition: all .5s ease;
+}
+.container>.row>.message:hover{
+  box-shadow: 0 15px 20px rgba(10,0,10,.3);
+  -webkit-filter: brightness(110%);
+}
+
+.container>.row>.message:before{
+  content: '';
+  font-family: FontAwesome;
+  position: absolute;
+  display: block;
+  top: -21px;
+  left: 50%;
+  margin:0 -17px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  width: 50px;
+  padding:10px;
+  background: inherit;
+  background-color: #39B !important;
+  box-shadow:0 2px 5px rgba(0,0,0,.25);
+  color: white;
+  border-radius:75%;
+  border: 2px solid transparent;
+  z-index: 2;
+}
+
+.container>.row>.message.information:before{content:'\f00c';}
+
+.container>.row>.message.information{background: white;}

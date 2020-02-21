@@ -13027,11 +13027,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.UI\\OnlineSinavSistemi.UI.csproj",
+      "projectUniqueName": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta7_2\\OnlineSinavSistemi\\OnlineSinavSistemi.UI\\OnlineSinavSistemi.UI.csproj",
       "projectName": "OnlineSinavSistemi.UI",
-      "projectPath": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.UI\\OnlineSinavSistemi.UI.csproj",
+      "projectPath": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta7_2\\OnlineSinavSistemi\\OnlineSinavSistemi.UI\\OnlineSinavSistemi.UI.csproj",
       "packagesPath": "C:\\Users\\Lab03-16\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.UI\\obj\\",
+      "outputPath": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta7_2\\OnlineSinavSistemi\\OnlineSinavSistemi.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13050,11 +13050,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Bll\\OnlineSinavSistemi.Bll.csproj": {
-              "projectPath": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Bll\\OnlineSinavSistemi.Bll.csproj"
+            "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta7_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Bll\\OnlineSinavSistemi.Bll.csproj": {
+              "projectPath": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta7_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Bll\\OnlineSinavSistemi.Bll.csproj"
             },
-            "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {
-              "projectPath": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj"
+            "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta7_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {
+              "projectPath": "Z:\\Fatma Betül YILMAZ\\Asp.Net 3 Öğle Branşı\\Proje\\Hafta7_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj"
             }
           }
         }
