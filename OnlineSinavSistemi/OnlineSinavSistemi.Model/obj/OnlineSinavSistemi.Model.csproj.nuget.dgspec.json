@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {}
+    "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj": {
+    "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj",
+        "projectUniqueName": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj",
         "projectName": "OnlineSinavSistemi.Core",
-        "projectPath": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj",
-        "packagesPath": "C:\\Users\\Lab03-16\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\obj\\",
+        "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj",
+        "packagesPath": "C:\\Users\\murat.MONSTER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lab03-16\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\murat.MONSTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -49,28 +51,36 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {
+    "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj",
+        "projectUniqueName": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj",
         "projectName": "OnlineSinavSistemi.Model",
-        "projectPath": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj",
-        "packagesPath": "C:\\Users\\Lab03-16\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\obj\\",
+        "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj",
+        "packagesPath": "C:\\Users\\murat.MONSTER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lab03-16\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\murat.MONSTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -82,8 +92,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj": {
-                "projectPath": "C:\\Users\\Lab03-16\\Desktop\\Hafta6_1\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj"
+              "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj": {
+                "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Core\\OnlineSinavSistemi.Core.csproj"
               }
             }
           }
@@ -105,10 +115,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

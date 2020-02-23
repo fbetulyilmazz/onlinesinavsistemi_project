@@ -5,11 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20200114121845_version1.0.cs" />
-    <Compile Remove="Migrations\20200114121845_version1.0.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\OnlineSinavSistemi.Model\OnlineSinavSistemi.Model.csproj" />
   </ItemGroup>
 

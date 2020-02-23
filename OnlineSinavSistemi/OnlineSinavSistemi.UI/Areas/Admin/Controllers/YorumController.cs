@@ -7,7 +7,7 @@ using OnlineSinavSistemi.Bll.Abstract;
 
 namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
 {
-    public class YorumController : Controller
+    public class YorumController : AdminBaseController
     {
         IUnitOfWork service;
         public YorumController(IUnitOfWork _service)
@@ -16,24 +16,18 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        public IActionResult Listeleme()
+        public IActionResult Listele()
         {
-            var list = service.Yorum.GetAll();
+            var list = service.Yorum.GetAll(x => x.SilindiMi == false);
             return View(list);
-        }
-        [HttpGet]
-        public IActionResult Silme()
-        {
-            
-            return View();
-
         }
 
         [HttpPost]
-        public IActionResult Silme(int id)
+        public IActionResult Silme(int yorumId)
         {
-            service.Yorum.SoftDelete(id);
-            return View();
+            service.Yorum.SoftDelete(yorumId);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Listele));
 
         }
     }

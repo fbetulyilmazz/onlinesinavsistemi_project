@@ -11,30 +11,58 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
     public class RolController : AdminBaseController
 
     {
-        IRolService service;
-        public RolController(IRolService _Rolservice)
+        IUnitOfWork service;
+        public RolController(IUnitOfWork _Rolservice)
         {
             service = _Rolservice;
         }
+        
+        public IActionResult Listele()
+        {
+            ICollection<Rol> liste = service.Rol.GetAll(x => x.SilindiMi == false).Data;
+            return View(liste);
+        }
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Ekle()
         {
             return View();
         }
+
         [HttpPost]
-        public IActionResult ekle(Rol model)
+        public IActionResult Ekle(Rol model)
         {
-            return View();
+            model.KayitTarihi = DateTime.Now;
+            model.SilindiMi = false;
+            service.Rol.Add(model);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Ekle));
         }
+
+
         [HttpPost]
-        public IActionResult update(Rol model)
+        public IActionResult Sil(int id)
         {
-            return View();
+            service.Rol.SoftDelete(id);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Listele));
         }
-        [HttpPost]
-        public IActionResult delete(int id)
+
+
+        
+        public IActionResult Guncelle(int RolId)
         {
-            return View();
+            var sonuc = service.Rol.GetAll(x => x.Id == RolId && x.SilindiMi == false).Data;
+            return View(sonuc);
+        }
+
+        [HttpPost]
+        public IActionResult Guncelle(Rol model)
+        {
+            //ekleme işlemi ypaulacak.
+            model.GuncellemeTarihi = DateTime.Now;
+            service.Rol.Update(model);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Listele));
         }
 
     }

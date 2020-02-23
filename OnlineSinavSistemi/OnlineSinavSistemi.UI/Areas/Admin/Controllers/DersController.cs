@@ -15,25 +15,19 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         {
             service = _service;
         }
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
+        public IActionResult Index()
+        {
+            return View();
+        }
 
         [HttpGet]
         public IActionResult DersGetByKursID(int kursId)
         {
-            var sonuc = service.Ders.GetAll(x => x.KursId == kursId).Data;
+            var sonuc = service.Ders.GetAll(x => x.KursId == kursId);
             return View(sonuc);
         }
 
-        public IActionResult Listele()
-        {
-            var sonuc = service.Ders.GetAll(x => x.SilindiMi == false).Data;
-            return View(sonuc);
-        }
-
-        [HttpGet]
+    [HttpGet]
         public IActionResult Ekle()
         {
             return View();
@@ -46,8 +40,8 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
             model.KayitTarihi = DateTime.Now;
             model.SilindiMi = false;
             service.Ders.Add(model);
-            var sonuc = service.SaveChanges();
-            return RedirectToAction(nameof(Ekle));
+            service.SaveChanges();
+            return View();
         }
 
         [HttpPost]
@@ -56,17 +50,17 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
             model.GuncellemeTarihi = DateTime.Now;
             model.SilindiMi = false;
             service.Ders.Update(model);
-            var sonuc = service.SaveChanges();
-            return RedirectToAction(nameof(Listele));
+            service.SaveChanges();
+            return View();
         }
 
         [HttpPost]
         public IActionResult SoftDelete(int id)
         {
+
             service.Ders.SoftDelete(id);
-            var sonuc = service.SaveChanges();
-            return RedirectToAction(nameof(Listele));
+            service.SaveChanges();
+            return View();
         }
     }
-
 }

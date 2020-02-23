@@ -10,15 +10,16 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
 {
     public class SinavController : AdminBaseController
     {
-        ISinavService service;
-        public SinavController(ISinavService _sinav)
+        IUnitOfWork service;
+        public SinavController(IUnitOfWork _sinav)
         {
             service = _sinav;
         }
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Listele()
         {
-            return View(service.GetAll().Data);
+            var sinavlar = service.Sinav.GetAll(x => x.SilindiMi == false).Data;
+            return View(sinavlar);
         }
         [HttpGet]
         public IActionResult Ekle()
@@ -27,47 +28,52 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Ekle(Sinav prm)
+        public IActionResult Ekle(Sinav sinav)
         {
-            Sinav sinav = new Sinav();
-
-            sinav.KursMerkeziId = prm.KursMerkeziId;
-            sinav.SinavTarihi = prm.SinavTarihi;
-            sinav.SinavSaati = prm.SinavSaati;
-            sinav.Suresi = prm.Suresi;
-            sinav.SoruSayisi = prm.SoruSayisi;
-            sinav.Sinif = prm.Sinif;
-            sinav.BransId = prm.BransId;
-            sinav.OgretmenId = prm.OgretmenId;
-            sinav.KaydedenKullaniciId = prm.KaydedenKullaniciId;
-            sinav.Kontenjan = prm.Kontenjan;
             sinav.OturumBittiMi = false;
             sinav.SilindiMi = false;
             sinav.KayitTarihi = DateTime.Now;
-            service.Add(sinav);
+            service.Sinav.Add(sinav);
+            service.SaveChanges();
             TempData["Message"] = "Başarıyla Eklediniz";
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Ekle));
         }
 
         public IActionResult SinavGetbyID(int ID)
         {
-            var sonuc = service.GetAll(x => x.Id == ID);
+            var sonuc = service.Sinav.GetAll(x => x.Id == ID && x.SilindiMi == false);
             return View(sonuc);
         }
 
-        [HttpGet]
-        public IActionResult SoftDelete(int ID)
-        {
-            var sonuc = service.GetAll(x => x.Id == ID);
-            return View(sonuc);
-        }
         [HttpPost]
-        public IActionResult SoftDelete(Sinav data)
+        public IActionResult SoftDelete(int id)
         {
-            service.SoftDelete(data.Id);    
-            return View();
+            service.Sinav.SoftDelete(id);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Listele));
         }
 
+        public IActionResult Guncelle(int sinavId)
+        {
+            var sonuc = service.Sinav.GetAll(x => x.Id == sinavId).Data;
+            return View(sonuc);
+        }
 
+        [HttpPost]
+        public IActionResult Guncelle(Sinav sinav)
+        {
+            //ekleme işlemi ypaulacak.
+            sinav.GuncellemeTarihi = DateTime.Now;
+            service.Sinav.Update(sinav);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Listele));
+        }
+
+        public IActionResult SinavTarihleriGetir()
+        {
+            var date = DateTime.Now.AddDays(-7);
+            var liste = service.Sinav.GetAll(x => x.SinavTarihi >= date && x.SilindiMi == false && x.OturumBittiMi == true).Data;
+            return View(liste);
+        }
     }
 }

@@ -109,3 +109,16 @@ C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi
 C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.csproj.CopyComplete
 C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.dll
 C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.pdb
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.deps.json
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.dll
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.pdb
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.csprojAssemblyReference.cache
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.AssemblyInfoInputs.cache
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.AssemblyInfo.cs
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.csproj.CopyComplete
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.dll
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Model\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Model.pdb

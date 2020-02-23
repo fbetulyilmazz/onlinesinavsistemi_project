@@ -97,3 +97,8 @@ C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi
 C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csproj.CopyComplete
 C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
 C:\Users\Lab03-16\Desktop\Hafta6_1\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.csprojAssemblyReference.cache
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfoInputs.cache
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.AssemblyInfo.cs
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.dll
+C:\Users\murat.MONSTER\Desktop\onlinesinavsistemi_project\OnlineSinavSistemi\OnlineSinavSistemi.Core\obj\Debug\netcoreapp2.2\OnlineSinavSistemi.Core.pdb

@@ -10,8 +10,8 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
 {
     public class KullaniciController : AdminBaseController
     {
-        IKullaniciService kullaniciService;
-        public KullaniciController(IKullaniciService _kullaniciService)
+        IUnitOfWork kullaniciService;
+        public KullaniciController(IUnitOfWork _kullaniciService)
         {
             kullaniciService = _kullaniciService;
         }
@@ -19,8 +19,8 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Listele()
         {
-            kullaniciService.GetAll();
-            return View(kullaniciService);
+            var liste = kullaniciService.Kullanici.GetAll(x => x.SilindiMi == false).Data;
+            return View(liste);
         }
         [HttpGet]
         public IActionResult Ekle()
@@ -33,34 +33,40 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         {
             model.KayitTarihi = DateTime.Now;
             model.SilindiMi = false;
-            TempData["mesaj"] = kullaniciService.Add(model);
-            return RedirectToAction("Listele");
+            //TempData["mesaj"] = kullaniciService.Kullanici.Add(model);
+            kullaniciService.Kullanici.Add(model);
+            kullaniciService.SaveChanges();
+            return RedirectToAction(nameof(Ekle));
         }
         [HttpGet]
-        public IActionResult Sil(Kullanici model)
+        public IActionResult Sil(int id)
         {
-            model.SilindiMi = true;
-            TempData["mesaj"] = kullaniciService.SoftDelete(model.Id);
-            return RedirectToAction("Listele");
+            //TempData["mesaj"] = kullaniciService.Kullanici.SoftDelete(model.Id);
+            kullaniciService.Kullanici.SoftDelete(id);
+            kullaniciService.SaveChanges();
+            return RedirectToAction(nameof(Listele));
         }
         [HttpGet]
-        public IActionResult Guncelle()
+        public IActionResult Guncelle(int kullaniciId)
         {
-            return View();
+            ICollection<Kullanici> sonuc = kullaniciService.Kullanici.GetAll(x => x.Id == kullaniciId).Data;
+            return View(sonuc);
         }
         [HttpPost]
         public IActionResult Guncelle(Kullanici model)
         {
             model.KayitTarihi = DateTime.Now;
 
-            TempData["mesaj"] = kullaniciService.Update(model);
-            return RedirectToAction("Listele");
+            //TempData["mesaj"] = kullaniciService.Kullanici.Update(model);
+            kullaniciService.Kullanici.Update(model);
+            kullaniciService.SaveChanges();
+            return RedirectToAction(nameof(Listele));
         }
         [HttpGet]
         public IActionResult Detay(int KullaniciId)
         {
-            var mesaj = kullaniciService.GetAll(x => x.Id == KullaniciId);
-            return View(mesaj);
+            var sonuc = kullaniciService.Kullanici.GetAll(x => x.Id == KullaniciId && x.SilindiMi == false);
+            return View(sonuc);
         }
     }
 }

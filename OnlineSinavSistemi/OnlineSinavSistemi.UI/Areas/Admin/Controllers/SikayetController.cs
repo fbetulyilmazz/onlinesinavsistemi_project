@@ -25,7 +25,7 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         public IActionResult Sil(int id)
         {
             service.Sikayet.SoftDelete(id);
-            var sonuc = service.SaveChanges();
+            service.SaveChanges();
             return RedirectToAction(nameof(Listele));
         }
     }

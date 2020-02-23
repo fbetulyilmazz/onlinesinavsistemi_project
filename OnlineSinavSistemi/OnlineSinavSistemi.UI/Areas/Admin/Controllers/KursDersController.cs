@@ -10,8 +10,8 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
 {
     public class KursDersController : AdminBaseController
     {
-        IKursDersService service;
-        public KursDersController(IKursDersService _service)
+        IUnitOfWork service;
+        public KursDersController(IUnitOfWork _service)
         {
             service = _service;
         }
@@ -25,42 +25,41 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         public IActionResult Ekle(KursDers model)
         {
             model.KayitTarihi = DateTime.Now;
-            model.GuncellemeTarihi = DateTime.Now;
             model.SilindiMi = false;
-            service.Add(model);
-            return View();
+            service.KursDers.Add(model);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Ekle));
         }
         [HttpGet]
-        public IActionResult Guncelle()
+        public IActionResult Guncelle(int kursDersId)
         {
-            return View();
+            var sonuc = service.KursDers.GetAll(x => x.Id == kursDersId && x.SilindiMi == false);
+            return View(sonuc);
         }
 
         [HttpPost]
         public IActionResult Guncelle(KursDers model)
         {
             model.GuncellemeTarihi = DateTime.Now;
-            model.SilindiMi = false;
-            service.Update(model);
-            return View();
-        }
-        [HttpGet]
-        public IActionResult Sil()
-        {
-            return View();
+            service.KursDers.Update(model);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Listele));
         }
 
         [HttpPost]
         public IActionResult Sil(int id)
         {
 
-            service.SoftDelete(id);
-            return View();
+            service.KursDers.SoftDelete(id);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Listele));
         }
+
+      
 
         public IActionResult Listele()
         {
-            ICollection<KursDers> liste = service.GetAll(x => x.SilindiMi == false).Data;
+            ICollection<KursDers> liste = service.KursDers.GetAll(x => x.SilindiMi == false).Data;
             return View(liste);
         }
 

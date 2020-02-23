@@ -10,17 +10,16 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
 {
     public class KursMerkeziController : AdminBaseController
     {
-        IKursMerkeziService service;
-        public KursMerkeziController(IKursMerkeziService _service)
+        IUnitOfWork service;
+        public KursMerkeziController(IUnitOfWork _service)
         {
             service = _service;
         }
 
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Listele()
         {
-            ICollection<KursMerkezi> liste = service.GetAll().Data;
-
+            ICollection<KursMerkezi> liste = service.KursMerkezi.GetAll(x => x.SilindiMi == false).Data;
             return View(liste);
         }
 
@@ -36,34 +35,43 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         {
             model.KayitTarihi = DateTime.Now;
             model.SilindiMi = false;
-            service.Add(model);
-            return View();
+            service.KursMerkezi.Add(model);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Ekle));
         }
 
 
         [HttpPost]
         public IActionResult Sil(int id)
         {
-            service.SoftDelete(id);
-            return View();
+            service.KursMerkezi.SoftDelete(id);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Listele));
         }
 
 
-        [HttpGet]
-        public IActionResult Guncelle(int id)
+        
+        public IActionResult Guncelle(int kursMerkeziId)
         {
-            return View();
+            var sonuc = service.KursMerkezi.GetAll(x => x.Id == kursMerkeziId && x.SilindiMi == false).Data;
+            return View(sonuc);
         }
 
         [HttpPost]
         public IActionResult Guncelle(KursMerkezi model)
         {
             //ekleme işlemi ypaulacak.
-            service.Update(model);
-            return View();
+            model.GuncellemeTarihi = DateTime.Now;
+            service.KursMerkezi.Update(model);
+            service.SaveChanges();
+            return RedirectToAction(nameof(Listele));
         }
 
-
+        public IActionResult IlveIlceyeGoreSirala(string il,string ilce,string ad)
+        {
+            var liste = service.KursMerkezi.GetAll(x => x.Il == il && x.Ilce == ilce && x.Ad==ad).Data;
+            return View(liste);
+        }
 
     }
 }
