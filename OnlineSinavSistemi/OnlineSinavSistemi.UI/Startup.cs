@@ -63,6 +63,18 @@ namespace OnlineSinavSistemi.UI
             //services.AddScoped<IYorumService, YorumService>();
             //services.AddScoped<IYorumRepository, YorumRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddSession(options =>
+            {
+                options.Cookie.Name = ".OSS.Session";
+                options.IdleTimeout = TimeSpan.FromSeconds(10);
+                options.Cookie.IsEssential = true;
+
+            });
+            services.AddMemoryCache();
+            services.AddDistributedMemoryCache();
+            services.AddDistributedRedisCache(opytion => { opytion.Configuration = "localhost:6379"; });
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
@@ -89,6 +101,8 @@ namespace OnlineSinavSistemi.UI
                 //context.Database.EnsureCreated();
             }
 
+
+
             //app.UseFileServer();
             app.UseStaticFiles(new StaticFileOptions
             {
@@ -96,8 +110,18 @@ namespace OnlineSinavSistemi.UI
             Path.Combine(Directory.GetCurrentDirectory(), "Template")),
                 RequestPath = "/tmp"
             });
+
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(
+           Path.Combine(Directory.GetCurrentDirectory(), "Areas/Admin/Images/BransLogo")),
+             
+                RequestPath = "/branslogos"
+            });
+
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            app.UseSession();
 
             app.UseMvc(x =>
             {

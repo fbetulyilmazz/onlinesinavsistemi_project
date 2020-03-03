@@ -11,8 +11,9 @@ namespace OnlineSinavSistemi.Dal.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=LAB08-OGRETMEN; Database=OSS; Trusted_Connection=true;");
-            base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseSqlServer(@"Data Source =LAB08-OGRETMEN; Initial Catalog = OSS; Trusted_Connection = True;");
+          
+                     base.OnConfiguring(optionsBuilder);
         }
 
         public DbSet<Brans> Brans { get; set; }

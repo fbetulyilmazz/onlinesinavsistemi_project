@@ -49,8 +49,10 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Guncelle(int kullaniciId)
         {
-            ICollection<Kullanici> sonuc = kullaniciService.Kullanici.GetAll(x => x.Id == kullaniciId).Data;
-            return View(sonuc);
+           var sonuc = kullaniciService.Kullanici.Get(x => x.Id == kullaniciId).Data;
+            //ICollection<Kullanici> sonuc = kullaniciService.Kullanici.GetAll(x => x.Id == kullaniciId).Data;
+           return View(sonuc);
+            //return RedirectToAction(nameof(Guncelle));
         }
         [HttpPost]
         public IActionResult Guncelle(Kullanici model)
@@ -63,9 +65,9 @@ namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
             return RedirectToAction(nameof(Listele));
         }
         [HttpGet]
-        public IActionResult Detay(int KullaniciId)
+        public IActionResult Detay(int kullaniciId)
         {
-            var sonuc = kullaniciService.Kullanici.GetAll(x => x.Id == KullaniciId && x.SilindiMi == false);
+            var sonuc = kullaniciService.Kullanici.GetAll(x => x.Id == kullaniciId && x.SilindiMi == false);
             return View(sonuc);
         }
     }

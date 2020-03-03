@@ -144,7 +144,8 @@
                                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                                 <div class="form-group">
                                                     <label asp-for="Ad" class="control-label">Ad</label>
-                                                    <input asp-for="Ad" class="form-control" />
+                                                    @*<input asp-for="Ad" class="form-control" />*@
+                                                    @Html.EditorFor(model=>model.Ad)
                                                     <span asp-validation-for="Ad" class="text-danger"></span>
                                                 </div>
                                                 <div class="form-group">

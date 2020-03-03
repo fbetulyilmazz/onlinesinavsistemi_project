@@ -490,6 +490,11 @@
         }
       },
       "OnlineSinavSistemi.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6"
+        },
         "runtime": {
           "OnlineSinavSistemi.Core.dll": {}
         }

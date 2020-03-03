@@ -24,6 +24,10 @@ namespace OnlineSinavSistemi.Bll.Concrete
         {
             return repository.GetAll(filter);
         }
+        public ResultMessage<Kullanici> Get(Expression<Func<Kullanici, bool>> filter)
+        {
+            return repository.Get(filter);
+        }
 
         public ResultMessage<Kullanici> Login(string email, string sifre)
         {

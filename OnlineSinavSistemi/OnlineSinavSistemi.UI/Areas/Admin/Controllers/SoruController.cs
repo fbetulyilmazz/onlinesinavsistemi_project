@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using OnlineSinavSistemi.Bll.Abstract;
 using OnlineSinavSistemi.Model.Data;
 
 namespace OnlineSinavSistemi.UI.Areas.Admin.Controllers
 {
+    [EnableCors("AllowOrigin")]
     public class SoruController : AdminBaseController
     {
         IUnitOfWork service;

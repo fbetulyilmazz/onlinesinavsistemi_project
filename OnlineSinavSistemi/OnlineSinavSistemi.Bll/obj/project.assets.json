@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore/2.2.6": {
         "type": "package",
         "dependencies": {
@@ -34,6 +43,22 @@
       },
       "Microsoft.EntityFrameworkCore.Analyzers/2.2.6": {
         "type": "package"
+      },
+      "Microsoft.EntityFrameworkCore.Design/2.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "build": {
+          "build/netcoreapp2.0/_._": {}
+        }
       },
       "Microsoft.EntityFrameworkCore.Relational/2.2.6": {
         "type": "package",
@@ -910,6 +935,11 @@
       "OnlineSinavSistemi.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6"
+        },
         "compile": {
           "bin/placeholder/OnlineSinavSistemi.Core.dll": {}
         },
@@ -948,6 +978,74 @@
     }
   },
   "libraries": {
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "EGoBmf3Na2ppbhPePDE9PlX81r1HuOZH5twBrq7couJZiPTjUnD3648balerQJO6EJ8Sj+43+XuRwQ7r+3tE3w==",
+      "type": "package",
+      "path": "microsoft.csharp/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "Microsoft.EntityFrameworkCore/2.2.6": {
       "sha512": "vmrMrjiCO7FkuFJwt/MHl6pk6cSXPtB1miPMtn0KTO7WqwaQ2WQ4gWpC/m753PzVriH2X2kIadWrd9SJb7KVww==",
       "type": "package",
@@ -984,6 +1082,23 @@
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "microsoft.entityframeworkcore.analyzers.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Design/2.2.6": {
+      "sha512": "ouDKXTXY+ItF+PAK/jkp+Cp6Ve8Pd9sblyqOErjaiK7CzeN28peFsv3NfDeoqTAXXCCKEyuv/iXYtLs4r3wI0w==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.design/2.2.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
+        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
+        "lib/net461/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/net461/Microsoft.EntityFrameworkCore.Design.xml",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.2.2.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/2.2.6": {
@@ -3527,11 +3642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Bll\\OnlineSinavSistemi.Bll.csproj",
+      "projectUniqueName": "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Bll\\OnlineSinavSistemi.Bll.csproj",
       "projectName": "OnlineSinavSistemi.Bll",
-      "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Bll\\OnlineSinavSistemi.Bll.csproj",
+      "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Bll\\OnlineSinavSistemi.Bll.csproj",
       "packagesPath": "C:\\Users\\murat.MONSTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Bll\\obj\\",
+      "outputPath": "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Bll\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -3552,11 +3667,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Dal\\OnlineSinavSistemi.Dal.csproj": {
-              "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Dal\\OnlineSinavSistemi.Dal.csproj"
+            "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Dal\\OnlineSinavSistemi.Dal.csproj": {
+              "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Dal\\OnlineSinavSistemi.Dal.csproj"
             },
-            "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {
-              "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj"
+            "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {
+              "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj"
             }
           }
         }

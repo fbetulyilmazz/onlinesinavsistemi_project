@@ -1,8 +1,10 @@
-﻿using OnlineSinavSistemi.Core.Concrete;
+﻿using Microsoft.EntityFrameworkCore;
+using OnlineSinavSistemi.Core.Concrete;
 using OnlineSinavSistemi.Dal.Abstract;
 using OnlineSinavSistemi.Model.Data;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace OnlineSinavSistemi.Dal.Concrete
@@ -13,6 +15,12 @@ namespace OnlineSinavSistemi.Dal.Concrete
         {
 
         }
+
+        public ICollection<Kurs> GetCoursesWithExams()
+        {
+            return context.Kurs.Where(x => x.SilindiMi == false).Include(x => x.Sinav).ToList();
+            //return context.Kurs.Where(x => x.SilindiMi == false).Include(x => x.Sinav).Include(x=> x.Sinav.Brans).Include(x=> x.Sinav.Ogretmen).ToList();
+        } 
 
         DateTime IKursRepository.KursunBaslamaTarihiniOgren(int KursId)
         {

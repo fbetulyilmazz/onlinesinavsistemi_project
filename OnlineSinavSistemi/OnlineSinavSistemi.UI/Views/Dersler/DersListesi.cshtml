@@ -1,360 +1,98 @@
 ﻿
 @{
     ViewData["Title"] = "DersListesi";
-    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+
 }
+<style>
+    body {
+        font-family: Arial;
+    }
 
-<!-- BEGIN CONTENT -->
-<div class="page-content-wrapper">
-    <!-- BEGIN CONTENT BODY -->
-    <div class="page-content">
-        <!-- BEGIN PAGE HEADER-->
+    /* Style the tab */
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
 
-        <h1 class="page-title">
-           Ders Listesi
-            <small>custom bootstrap overlay elements to be used on any container</small>
-        </h1>
-        <div class="page-bar">
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
 
-            <ul class="page-breadcrumb">
-                <li>
-                    <i class="icon-home"></i>
-                    <a href="index.html">Home</a>
-                    <i class="fa fa-angle-right"></i>
-                </li>
-                <li>
-                    <span>Elements</span>
-                </li>
-            </ul>
-            <div class="page-toolbar">
-                <div class="btn-group pull-right">
-                    <button type="button" class="btn btn-fit-height grey-salt dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true">
-                        Actions
-                        <i class="fa fa-angle-down"></i>
-                    </button>
-                    <ul class="dropdown-menu pull-right" role="menu">
-                        <li>
-                            <a href="#">
-                                <i class="icon-bell"></i> Action
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-shield"></i> Another action
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-user"></i> Something else here
-                            </a>
-                        </li>
-                        <li class="divider"> </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-bag"></i> Separated link
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+            /* Change background color of buttons on hover */
+            .tab button:hover {
+                background-color: #ddd;
+            }
 
-        <!-- END PAGE HEADER-->
-        <!-- BEGIN : OVERLAY -->
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div class="portlet light portlet-fit ">
-                    <div class="portlet-title">
-                        <div class="caption">
-                            <i class=" icon-layers font-green"></i>
-                            <span class="caption-subject font-green bold uppercase">Overlay 1 - Default</span>
-                            <div class="caption-desc font-grey-cascade"> Activate by adding <pre class="mt-code">.mt-overlay-1</pre> class to your element. </div>
-                        </div>
-                    </div>
-                    <div class="portlet-body">
-                        <div class="mt-element-overlay">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mt-overlay-1">
-                                        <img src="~/assets/pages/img/page_general_search/01.jpg" />
-                                        <div class="mt-overlay">
-                                            <ul class="mt-info">
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-magnifier"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-link"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div class="portlet light portlet-fit ">
-                    <div class="portlet-title">
-                        <div class="caption">
-                            <i class=" icon-layers font-green"></i>
-                            <span class="caption-subject font-green bold uppercase">Overlay 1 - Scroll Up</span>
-                            <div class="caption-desc font-grey-cascade"> Activate by adding <pre class="mt-code">.mt-overlay-1 .mt-scroll-up</pre> class to your element. </div>
-                        </div>
-                    </div>
-                    <div class="portlet-body">
-                        <div class="mt-element-overlay">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mt-overlay-1 mt-scroll-up">
-                                        <img src="~/assets/pages/img/page_general_search/01.jpg" />
-                                        <div class="mt-overlay">
-                                            <ul class="mt-info">
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-magnifier"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-link"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div class="portlet light portlet-fit ">
-                    <div class="portlet-title">
-                        <div class="caption">
-                            <i class=" icon-layers font-green"></i>
-                            <span class="caption-subject font-green bold uppercase">Overlay 1 - Scroll Down</span>
-                            <div class="caption-desc font-grey-cascade"> Activate by adding <pre class="mt-code">.mt-overlay-1 .mt-scroll-down</pre> class to your element. </div>
-                        </div>
-                    </div>
-                    <div class="portlet-body">
-                        <div class="mt-element-overlay">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mt-overlay-1 mt-scroll-down">
-                                        <img src="~/assets/pages/img/page_general_search/01.jpg" />
-                                        <div class="mt-overlay">
-                                            <ul class="mt-info">
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-magnifier"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-link"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div class="portlet light portlet-fit ">
-                    <div class="portlet-title">
-                        <div class="caption">
-                            <i class=" icon-layers font-green"></i>
-                            <span class="caption-subject font-green bold uppercase">Overlay 1 - Scroll Left</span>
-                            <div class="caption-desc font-grey-cascade"> Activate by adding <pre class="mt-code">.mt-overlay-1 .mt-scroll-left</pre> class to your element. </div>
-                        </div>
-                    </div>
-                    <div class="portlet-body">
-                        <div class="mt-element-overlay">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mt-overlay-1 mt-scroll-left">
-                                        <img src="~/assets/pages/img/page_general_search/01.jpg" />
-                                        <div class="mt-overlay">
-                                            <ul class="mt-info">
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-magnifier"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-link"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div class="portlet light portlet-fit ">
-                    <div class="portlet-title">
-                        <div class="caption">
-                            <i class=" icon-layers font-green"></i>
-                            <span class="caption-subject font-green bold uppercase">Overlay 1 - Default</span>
-                            <div class="caption-desc font-grey-cascade"> Activate by adding <pre class="mt-code">.mt-overlay-1</pre> class to your element. </div>
-                        </div>
-                    </div>
-                    <div class="portlet-body">
-                        <div class="mt-element-overlay">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mt-overlay-1">
-                                        <img src="~/assets/pages/img/page_general_search/01.jpg" />
-                                        <div class="mt-overlay">
-                                            <ul class="mt-info">
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-magnifier"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-link"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div class="portlet light portlet-fit ">
-                    <div class="portlet-title">
-                        <div class="caption">
-                            <i class=" icon-layers font-green"></i>
-                            <span class="caption-subject font-green bold uppercase">Overlay 1 - Scroll Up</span>
-                            <div class="caption-desc font-grey-cascade"> Activate by adding <pre class="mt-code">.mt-overlay-1 .mt-scroll-up</pre> class to your element. </div>
-                        </div>
-                    </div>
-                    <div class="portlet-body">
-                        <div class="mt-element-overlay">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mt-overlay-1 mt-scroll-up">
-                                        <img src="~/assets/pages/img/page_general_search/01.jpg" />
-                                        <div class="mt-overlay">
-                                            <ul class="mt-info">
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-magnifier"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-link"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div class="portlet light portlet-fit ">
-                    <div class="portlet-title">
-                        <div class="caption">
-                            <i class=" icon-layers font-green"></i>
-                            <span class="caption-subject font-green bold uppercase">Overlay 1 - Scroll Down</span>
-                            <div class="caption-desc font-grey-cascade"> Activate by adding <pre class="mt-code">.mt-overlay-1 .mt-scroll-down</pre> class to your element. </div>
-                        </div>
-                    </div>
-                    <div class="portlet-body">
-                        <div class="mt-element-overlay">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mt-overlay-1 mt-scroll-down">
-                                        <img src="~/assets/pages/img/page_general_search/01.jpg" />
-                                        <div class="mt-overlay">
-                                            <ul class="mt-info">
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-magnifier"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-link"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div class="portlet light portlet-fit ">
-                    <div class="portlet-title">
-                        <div class="caption">
-                            <i class=" icon-layers font-green"></i>
-                            <span class="caption-subject font-green bold uppercase">Overlay 1 - Scroll Left</span>
-                            <div class="caption-desc font-grey-cascade"> Activate by adding <pre class="mt-code">.mt-overlay-1 .mt-scroll-left</pre> class to your element. </div>
-                        </div>
-                    </div>
-                    <div class="portlet-body">
-                        <div class="mt-element-overlay">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mt-overlay-1 mt-scroll-left">
-                                        <img src="~/assets/pages/img/page_general_search/01.jpg" />
-                                        <div class="mt-overlay">
-                                            <ul class="mt-info">
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-magnifier"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="btn default btn-outline" href="javascript:;">
-                                                        <i class="icon-link"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END : OVERLAY -->
-    </div>
-    <!-- END CONTENT BODY -->
+            /* Create an active/current tablink class */
+            .tab button.active {
+                background-color: #ccc;
+            }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+</style>
+
+
+<h2>Tabs</h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+    
 </div>
-<!-- END CONTENT -->
+
+<div id="London" class="tabcontent">
+
+
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+
+        <p>London is the capital city of England.</p>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+</div>

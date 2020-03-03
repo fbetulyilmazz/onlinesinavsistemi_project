@@ -43,6 +43,8 @@ namespace OnlineSinavSistemi.Bll.Concrete
         public IKullaniciSinavService KullaniciSinav => kullaniciSinav ?? (kullaniciSinav=new KullaniciSinavService(new KullaniciSinavRepository(context)));
 
         public IKursDersService KursDers => kursDers?? (kursDers = new KursDersService(new KursDersRepository(context)));
+        public IKursService Kurs => kurs ?? (kurs = new KursService(new KursRepository(context)));
+
 
         public IKursMerkeziService KursMerkezi => kursMerkezi ?? (kursMerkezi=new KursMerkeziService(new KursMerkeziRepository(context)));
 

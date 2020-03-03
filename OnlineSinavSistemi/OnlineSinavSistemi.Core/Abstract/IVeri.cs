@@ -8,5 +8,6 @@ namespace OnlineSinavSistemi.Core.Abstract
     {
         //bu interfaceden kalıtım alarak oluşturulan tüm classlar veritabanı için kullanılmaktadır.
         bool SilindiMi { get; set; }
+      
     }
 }

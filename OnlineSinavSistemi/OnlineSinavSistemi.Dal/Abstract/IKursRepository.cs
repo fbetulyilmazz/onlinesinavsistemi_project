@@ -9,5 +9,6 @@ namespace OnlineSinavSistemi.Dal.Abstract
     public interface IKursRepository : IRepository<Kurs>
     {
         DateTime KursunBaslamaTarihiniOgren(int KursId);
+        ICollection<Kurs> GetCoursesWithExams();
     }
 }

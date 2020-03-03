@@ -4,14 +4,25 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using OnlineSinavSistemi.Bll.Abstract;
+using OnlineSinavSistemi.UI.Filters;
+using OnlineSinavSistemi.UI.Models;
 using OnlineSinavUI.Models;
 
 namespace OnlineSinavUI.Controllers
 {
     public class HomeController : Controller
     {
+        IUnitOfWork service;
+        public HomeController(IUnitOfWork _service)
+        {
+            service = _service;
+        }
+       
+        [LoginFilter]
         public IActionResult Index()
         {
+           
             return View();
         }
 

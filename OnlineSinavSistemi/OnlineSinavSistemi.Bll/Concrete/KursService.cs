@@ -25,6 +25,11 @@ namespace OnlineSinavSistemi.Bll.Concrete
             return repository.GetAll(filter);
         }
 
+        public ICollection<Kurs> GetCoursesWithExams()
+        {
+            return repository.GetCoursesWithExams();
+        }
+
         public ResultMessage<Kurs> SoftDelete(int id)
         {
             return repository.SoftDelete(id);

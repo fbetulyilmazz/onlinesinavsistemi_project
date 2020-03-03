@@ -13,4 +13,5 @@ namespace OnlineSinavSistemi.UI.Models
         [Required]
         public string Sifre { get; set; }
     }
+
 }

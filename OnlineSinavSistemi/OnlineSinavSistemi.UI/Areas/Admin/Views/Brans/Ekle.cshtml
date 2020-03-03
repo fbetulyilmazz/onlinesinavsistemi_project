@@ -2,7 +2,9 @@
     ViewData["Title"] = "Indexa";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
+    @using OnlineSinavSistemi.Model.Data
 
+    @model Brans
 <!-- BEGIN CONTENT -->
 <div class="page-content-wrapper">
     <!-- BEGIN CONTENT BODY -->
@@ -108,30 +110,39 @@
                                         <i class="icon-globe theme-font hide"></i>
                                         <span class="caption-subject font-blue-madison bold uppercase">Ders Bilgileri</span>
                                     </div>
-                                    <ul class="nav nav-tabs">
-                                       
-                                    </ul>
+                                    <ul class="nav nav-tabs"></ul>
                                 </div>
                                 <div class="portlet-body">
                                     <div class="alert alert-info">  @TempData["Mesaj"]</div>
                                     <div class="tab-content">
                                         <!-- PERSONAL INFO TAB -->
                                         <div class="tab-pane active" id="tab_1_1">
-                                            <form role="form" action="/Admin/Brans/Ekle" method="post">
+                                            <form role="form" asp-controller="Brans" enctype="multipart/form-data" asp-action="Ekle" asp-area="Admin" method="post">
+                                                @Html.AntiForgeryToken()
+                                                <div class="form-group">
+                                                    <label class="control-label">Üst Branşı</label>
+                                                  @*  @Html.DropDownListFor(x => x.UstBransId, ViewBag.BransList  as SelectList, "Seçiniz", new { @class = "form-control" })*@
+                                                <my-s-o asp-for="UstBransId" lst-for="ViewBag.THBransList as List<Brans>" ></my-s-o>
+
+                                                </div>
                                                 <div class="form-group">
                                                     <label class="control-label">Branş Adı</label>
-                                                    <input type="text" placeholder="Branş Adı" class="form-control" name="Ad" />
+                                                    @*         <input type="text" placeholder="Branş Adı" class="form-control" name="Ad" />*@
+                                                    @Html.TextBoxFor(x => x.Ad, "text", new { @class = "form-control" })
+                                                  @* @Html.Raw("<b>form burada biter</b>")*@
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="control-label">LogoUrl</label>
-                                                    <input type="text" placeholder="Url" class="form-control" name="LogoUrl" />
+                                                  @*  <input type="text"  asp-for="LogoUrl"  class="form-control"/>*@
+                                                    @*<input type="text" placeholder="Url" class="form-control" name="LogoUrl" />*@
+                                                <input type="file" name="Foto" value="" />
                                                 </div>
                                                 <input type="submit" name="name" value="Kaydet" />
                                             </form>
                                         </div>
                                         <!-- END PERSONAL INFO TAB -->
-                                        
-                                       
+
+
                                     </div>
                                 </div>
                             </div>

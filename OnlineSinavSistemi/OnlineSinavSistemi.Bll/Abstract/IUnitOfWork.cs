@@ -13,6 +13,7 @@ namespace OnlineSinavSistemi.Bll.Abstract
         IKullaniciService Kullanici { get; }
         IKullaniciSinavService KullaniciSinav { get;  }
         IKursDersService KursDers { get;  }
+        IKursService Kurs { get; }
         IKursMerkeziService KursMerkezi { get;  }
         IRolService Rol { get;  }
         ISikayetService Sikayet { get; }

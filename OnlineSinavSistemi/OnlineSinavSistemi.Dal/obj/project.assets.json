@@ -935,6 +935,11 @@
       "OnlineSinavSistemi.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6"
+        },
         "compile": {
           "bin/placeholder/OnlineSinavSistemi.Core.dll": {}
         },
@@ -3619,11 +3624,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Dal\\OnlineSinavSistemi.Dal.csproj",
+      "projectUniqueName": "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Dal\\OnlineSinavSistemi.Dal.csproj",
       "projectName": "OnlineSinavSistemi.Dal",
-      "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Dal\\OnlineSinavSistemi.Dal.csproj",
+      "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Dal\\OnlineSinavSistemi.Dal.csproj",
       "packagesPath": "C:\\Users\\murat.MONSTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Dal\\obj\\",
+      "outputPath": "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Dal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -3644,8 +3649,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {
-              "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\onlinesinavsistemi_project\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj"
+            "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj": {
+              "projectPath": "C:\\Users\\murat.MONSTER\\Desktop\\Hafta9_2\\OnlineSinavSistemi\\OnlineSinavSistemi.Model\\OnlineSinavSistemi.Model.csproj"
             }
           }
         }

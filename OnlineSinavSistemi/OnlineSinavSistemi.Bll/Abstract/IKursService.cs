@@ -13,5 +13,6 @@ namespace OnlineSinavSistemi.Bll.Abstract
         ResultMessage<Kurs> Update(Kurs data);
         ResultMessage<Kurs> SoftDelete(int id);
         ResultMessage<ICollection<Kurs>> GetAll(Expression<Func<Kurs, bool>> filter = null);
+        ICollection<Kurs> GetCoursesWithExams();
     }
 }

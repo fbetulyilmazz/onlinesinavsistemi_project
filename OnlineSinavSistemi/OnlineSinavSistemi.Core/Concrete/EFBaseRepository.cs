@@ -74,7 +74,8 @@ namespace OnlineSinavSistemi.Core.Concrete
             {
                 using (TContext context = new TContext())
                 {
-                  TEntity data =  context.Set<TEntity>().FirstOrDefault(filter);
+                  TEntity data =  context.Set<TEntity>().Where(filter).FirstOrDefault();
+                    //TEntity data =  context.Set<TEntity>().FirstOrDefault(filter);
                     //ternary if
                     return data==null ? new ResultMessage<TEntity> { BasariliMi=false, Mesaj="Aranan kriterlere uygun kayıt bulunamadı." } :  new ResultMessage<TEntity> { BasariliMi = true, Mesaj = "Kayıt getirildi.", Data=data };
                 }
@@ -138,9 +139,10 @@ namespace OnlineSinavSistemi.Core.Concrete
 
             try
             {
-            //    using (TContext context = new TContext())
-            //    {
-                    var updatedData = context.Entry(data);
+                //    using (TContext context = new TContext())
+                //    { model.GuncellemeTarihi = DateTime.Now;
+          
+                var updatedData = context.Entry(data);
                     updatedData.State = EntityState.Modified;
                     //int result = context.SaveChanges();
                     //ternary if
